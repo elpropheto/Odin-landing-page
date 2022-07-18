@@ -65,22 +65,45 @@ ul{
 }
 .pictures{
   display: flex;
+  justify-content: center;
+  gap: 52px;
 }
 .rectangle{
   width: 150px;
   height: 150px;
   border: blue solid;
   
+  
+}
+.rectangle-text{
+  text-align: center;
 }
 
 
 .quote{
   display: flex;
   flex-flow: column;
+  background-color: #e5e7eb;
 }
+.quotetext{
+  font-size: 36px;
+  font-style:italic;
+  
+}
+.quote .author{
+  align-self: flex-end;
+  font-weight: 600;
+}
+
 .call-to-action{
   display: flex;
 }
 .footer{
   display: flex;
+}
+h2{
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 1000;
+  text-align: center;
 }
