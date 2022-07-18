@@ -28,6 +28,8 @@ ul{
 }
 .content1{
   display: flex;
+  justify-content: center;
+  background-color: #1f2937;
 }
 .placeholder{
   background-color: rgb(177, 177, 177);
@@ -38,6 +40,11 @@ ul{
   width: 500px;
   height: 200px;
 
+}
+.main{
+  font-size: 48px;
+  font-weight: extra-bold;
+  color: #f9faf8;
 }
 .content2{
   display: flex;
