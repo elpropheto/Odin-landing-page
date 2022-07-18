@@ -182,3 +182,20 @@ h2{
   padding: 35px 0;
 
 }
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover{
+  color:lightgrey;
+}
+.button1:hover{
+  background-color:#1660d4;
+
+  cursor: pointer;
+}
+.button2:hover{
+  background-color:#2771e5;
+
+  cursor: pointer;
+}
