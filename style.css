@@ -1,3 +1,33 @@
 body{
   font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-flow: column;
+}
+.header{
+  display: flex;
+
+}
+ul{
+  display: flex;
+  list-style-type: none;
+}
+.content1{
+  display: flex;
+}
+.content2{
+  display: flex;
+  flex-flow: column;
+}
+.pictures{
+  display: flex;
+}
+.quote{
+  display: flex;
+  flex-flow: column;
+}
+.call-to-action{
+  display: flex;
+}
+.footer{
+  display: flex;
 }
