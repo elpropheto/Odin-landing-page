@@ -9,8 +9,8 @@ body{
   display: flex;
   background-color: #1f2937;
   align-items: center;
-  justify-content: space-evenly;
-  padding: 0 16px;
+  justify-content: space-between;
+  padding: 1em 20em;
 
 }
 .header p{
@@ -28,23 +28,30 @@ ul{
 }
 .content1{
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   background-color: #1f2937;
+  padding: 4em 20em;
+  padding-bottom: 8em;
+  
 }
 .placeholder{
   background-color: rgb(177, 177, 177);
   color: white;
   display: flex;
   justify-content: center;
-  align-items: center;
-  width: 500px;
-  height: 200px;
-
+  align-items: center;  
+  flex: 1;
+}
+.herotext{
+  display: flex;
+  flex-flow: column;
+  flex: 1;
 }
 .main{
   font-size: 48px;
   font-weight:1000;
   color: #f9faf8;
+  margin-bottom: 0;
 }
 .content1 .secondary{
   font-size: 18px;
@@ -54,8 +61,15 @@ ul{
   background-color: #3882f6;
   color: white;
   border-radius: 10px;
-  width: 100px;
-  height: 30px;
+  width: 140px;
+  height: 40px;
+  font-size: 18px;
+  padding: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
 }
 
 
