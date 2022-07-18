@@ -133,15 +133,25 @@ ul{
   color: white;
   justify-content: space-between;
   align-items: center;
-  padding: 1em 20em;
+  padding: 1em 10em;
+  margin: 5em 20em;
+  border-radius: 20px;
 }
 .button2{
   background-color: #3882f6;
   color: white;
   border-radius: 10px;
-  width: 100px;
-  height: 30px;
+  width: 140px;
+  height: 40px;
   border-color: white;
+  align-self: center;
+  font-size: 18px;
+  padding: 10px;
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 .footer{
@@ -157,4 +167,18 @@ h2{
   font-weight: 1000;
   text-align: center;
   margin-bottom: 2em;
+}
+.call1{
+  font-weight: bold;
+  font-size: 26px;
+  margin: 0;
+  margin-bottom: 10px;
+}
+.call2{
+  margin: 0;
+  font-size: 18px;
+}
+.action-text{
+  padding: 35px 0;
+
 }
